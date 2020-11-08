@@ -5,6 +5,11 @@ dart里面构造函数可以写多个
 class Person{
   String name;
   int age; 
+
+  double width;
+  double heigt;
+  double area;
+
   //默认构造函数的简写 语法糖
   Person(this.name,this.age);
   
@@ -16,6 +21,10 @@ class Person{
     this.name=name;
     this.age=age;
   }
+
+// 初始化列表: 后面是初始化列表,多个初始化列表用,分割
+  Person.formArea(this.width,this.heigt) : this.area = width *heigt;
+
 
   void printInfo(){   
     print("${this.name}----${this.age}");

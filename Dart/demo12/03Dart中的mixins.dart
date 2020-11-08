@@ -24,7 +24,7 @@ class Person{
   }
 }
 
-class A {
+mixin A {
   String info="this is A";
   void printA(){
     print("A");
@@ -34,7 +34,7 @@ class A {
   }
 }
 
-class B {  
+mixin B {  
   void printB(){
     print("B");
   }

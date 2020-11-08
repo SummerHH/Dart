@@ -20,10 +20,10 @@ void main(){
       // }
 
 
-      // myList.forEach((value){
-      //     print("$value");
-      // });
-
+      //传入的是个函数
+      myList.forEach((value){ 
+          print("$value");
+      });
 
 
 

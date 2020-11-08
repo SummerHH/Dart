@@ -7,14 +7,14 @@ mixins的实例类型是什么？
 
 
 
-class A {
+mixin A {
   String info="this is A";
   void printA(){
     print("A");
   }
 }
 
-class B {
+mixin B {
   void printB(){
     print("B");
   }

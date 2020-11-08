@@ -18,6 +18,7 @@ extends抽象类 和 implements的区别：
 
   2、如果只是把抽象类当做标准的话我们就用implements实现抽象类
 
+abstract 相当于 OC 的 protocol
 
 
 案例：定义一个Animal 类要求它的子类必须包含eat方法

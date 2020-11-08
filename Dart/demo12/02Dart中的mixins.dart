@@ -12,14 +12,14 @@ mixins的中文意思是混入，就是在类中混入其他功能。
   4、mixins绝不是继承，也不是接口，而是一种全新的特性
 */
 
-class A {
+mixin A {
   String info="this is A";
   void printA(){
     print("A");
   }
 }
 
-class B {
+mixin B {
   void printB(){
     print("B");
   }
